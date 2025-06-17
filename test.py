@@ -28,7 +28,6 @@ def parse_ps_output():
 
     return data
 
-
 def generate_report(data):
     now = datetime.now().strftime('%d-%m-%Y_%H:%M')
     filename = f'/tmp/system_scan_{now}.txt'
